@@ -8,4 +8,10 @@
   <viewlet name="plone.searchbox"/>
   <viewlet name="plone.global_sections"/>
  </hidden>
+ <order manager="plone.portalheader" skinname="Sunburst Theme">
+  <viewlet name="uwosh.global_sections" insert-after="*"/>
+ </order>
+ <order manager="plone.portalheader" skinname="Responsive Theme">
+  <viewlet name="uwosh.global_sections" insert-after="*"/>
+ </order>
 </object>

@@ -26,6 +26,13 @@
       />
   -->
 
+    <browser:viewlet
+        name="uwosh.global_sections"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.GlobalSectionsViewlet"
+        permission="zope2.View"
+        />
+
   <!-- Zope 3 browser resources -->
 
   <!-- Resource directory for images

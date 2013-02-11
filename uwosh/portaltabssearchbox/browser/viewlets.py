@@ -46,8 +46,6 @@ from plone.app.layout.viewlets.common import GlobalSectionsViewlet as BaseGlobal
 
 
 class GlobalSectionsViewlet(BaseGlobalSectionsViewlet):
-	""" We want to override just the update() method and use the extended portal_tabs page template. """
-
     index = ViewPageTemplateFile('viewlet.pt')
 
     def update(self):
