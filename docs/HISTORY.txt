@@ -1,6 +1,19 @@
 Changelog
 =========
 
+0.1.7 (2013-02-12) [tkimnguyen]
+-------------------------------
+
+- update HISTORY.txt
+
+
+0.1.6 (2013-02-12) [tkimnguyen]
+-------------------------------
+
+- registers viewlet only for uwosh.portaltabssearchbox skin, selectable in
+  portal_skins Properties tab
+
+
 0.1.5 (2013-02-11) [tkimnguyen]
 -------------------------------
 
