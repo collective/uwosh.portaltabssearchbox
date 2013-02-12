@@ -1,5 +1,5 @@
 title:string=uwosh.portaltabssearchbox's color, font, logo and border defaults
-
+/*
 plone_skin:string=uwosh.portaltabssearchbox
 
 logoName:string=logo.jpg
@@ -45,3 +45,5 @@ helpBackgroundColor:string=#ffffe1
 portalMinWidth:string=70em
 columnOneWidth:string=16em
 columnTwoWidth:string=16em
+*/
+

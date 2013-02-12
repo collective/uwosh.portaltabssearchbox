@@ -9,12 +9,12 @@
     You can also use this layer to override default Plone browser views
     and viewlets only within the 'uwosh.portaltabssearchbox' theme.
   -->
-<!--   <interface
+  <interface
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="uwosh.portaltabssearchbox"
       />
- -->  
+  
   <!-- Viewlets registration -->
   <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
   <browser:viewlet
@@ -30,9 +30,19 @@
         name="uwosh.global_sections"
         manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
         class=".viewlets.GlobalSectionsViewlet"
+        layer=".interfaces.IThemeSpecific"
+        based-on="Sunburst Theme"
         permission="zope2.View"
         />
 
+<!--     <browser:viewlet
+        name="uwosh.global_sections"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.GlobalSectionsViewlet"
+        layer="plonetheme.sunburst.browser.interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+ -->
   <!-- Zope 3 browser resources -->
 
   <!-- Resource directory for images
