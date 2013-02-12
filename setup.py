@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.4'
+version = '0.1.5'
 
 setup(name='uwosh.portaltabssearchbox',
       version=version,
       description="moves search box into portal tabs",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.md").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
