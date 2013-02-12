@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.1.8 (2013-02-12) [tkimnguyen]
+-------------------------------
+
+- update SOURCES.txt to include README.md
+
+
 0.1.7 (2013-02-12) [tkimnguyen]
 -------------------------------
 
