@@ -7,7 +7,7 @@
       name="default"
       title="uwosh.portaltabssearchbox"
       directory="profiles/default"
-      description='Extension profile for the "uwosh.portaltabssearchbox" Plone theme.'
+      description='Moves the search box into the portal tabs viewlet'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

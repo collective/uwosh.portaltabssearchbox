@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.3'
+version = '0.1.4'
 
 setup(name='uwosh.portaltabssearchbox',
       version=version,
@@ -14,10 +14,10 @@ setup(name='uwosh.portaltabssearchbox',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='portal tabs,search box,viewlet',
+      author='T. Kim Nguyen',
+      author_email='nguyen@uwosh.edu',
+      url='https://github.com/collective/uwosh.portaltabssearchbox',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['uwosh'],

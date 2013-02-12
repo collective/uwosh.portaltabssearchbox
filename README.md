@@ -1,4 +1,4 @@
 uwosh.portaltabssearchbox
 =========================
 
-moves search box into portal tabs
+This product moves the standard Plone search box into the portal tabs viewlet, to free up vertical space on the page.
