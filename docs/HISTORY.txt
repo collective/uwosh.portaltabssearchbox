@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.1.10 (2013-02-12) [tkimnguyen]
+--------------------------------
+
+- restored and fixed base_properties.props 
+
+
 0.1.9 (2013-02-12) [tkimnguyen]
 -------------------------------
 
