@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.1.9 (2013-02-12) [tkimnguyen]
+-------------------------------
+
+- remove most of base_properties.props file contents
+
+
 0.1.8 (2013-02-12) [tkimnguyen]
 -------------------------------
 
